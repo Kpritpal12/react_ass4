@@ -1,0 +1,33 @@
+nav{
+    background-color: blue;
+    padding: 16px 32px;
+    font-size: 25px;
+    display: flex;
+    /* align-items:stretch; */
+    justify-content: space-around;
+    
+}
+
+nav a.active{
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    
+}
+.add-btn{
+    display: inline-block;
+    float: right;
+    margin: 20px 20px  ;
+    font-size: 20px;
+    color: rgb(240, 231, 231);
+    background-color: gray;
+}
+
+h1{
+    display: inline-block;
+}
